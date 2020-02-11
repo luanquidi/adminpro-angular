@@ -2,6 +2,7 @@ import { NgModule } from "@angular/core";
 
 //Modulos
 import { SharedModule } from '../shared/shared.module';
+import { ChartsModule } from 'ng2-charts';
 
 //Componentes
 import { DashboardComponent } from './dashboard/dashboard.component';
@@ -11,6 +12,7 @@ import { PagesComponent } from './pages.component';
 
 // Rutas de la Pagina
 import { PAGES_ROUTES } from './pages.routes';
+import { ComponentsModule } from '../components/components.module';
 
 @NgModule({
     declarations: [
@@ -26,7 +28,9 @@ import { PAGES_ROUTES } from './pages.routes';
     ],
     imports: [
         SharedModule,
-        PAGES_ROUTES
+        PAGES_ROUTES,
+        ComponentsModule,
+        ChartsModule,
     ]
 })
 
