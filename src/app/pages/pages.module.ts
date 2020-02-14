@@ -13,13 +13,15 @@ import { PagesComponent } from './pages.component';
 // Rutas de la Pagina
 import { PAGES_ROUTES } from './pages.routes';
 import { ComponentsModule } from '../components/components.module';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations: [
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        PagesComponent
+        PagesComponent,
+        AccountSettingsComponent
     ],
     exports: [
         DashboardComponent,
