@@ -14,6 +14,7 @@ import { PagesComponent } from './pages.component';
 import { PAGES_ROUTES } from './pages.routes';
 import { ComponentsModule } from '../components/components.module';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
 
 @NgModule({
     declarations: [
@@ -21,7 +22,8 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         ProgressComponent,
         Graficas1Component,
         PagesComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent
     ],
     exports: [
         DashboardComponent,
